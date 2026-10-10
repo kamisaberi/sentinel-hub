@@ -1,0 +1,12 @@
+{
+  "id": "org.aryorithm.package.http_rapid_reset",
+  "name": "HTTP/2 Rapid Reset Exploit Shield",
+  "version": "1.0.0",
+  "tier": "lua",
+  "author": "Aryorithm Certified Security Team",
+  "target_protocol": "HTTP2_TCP",
+  "default_port": 443,
+  "latency_sla_ns": 450,
+  "compliance": ["CMMC-SI.L2-3.14.1", "EU-NIS2-Art21"],
+  "description": "Sub-450ns line-rate mitigation of HTTP/2 CVE-2023-44487 rapid stream cancellation DoS floods."
+}
