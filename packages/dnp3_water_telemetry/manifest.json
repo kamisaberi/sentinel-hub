@@ -1,0 +1,12 @@
+{
+  "id": "org.aryorithm.package.dnp3_water_telemetry",
+  "name": "DNP3 Municipal Water Chemical Safety Clamp",
+  "version": "1.0.0",
+  "tier": "native",
+  "author": "Aryorithm Certified Security Team",
+  "target_protocol": "DNP3",
+  "default_port": 20000,
+  "latency_sla_ns": 180,
+  "compliance": ["IEC-62443-4-2-FR3", "CMMC-SI.L2-3.14.1"],
+  "description": "Sub-180ns verification of DNP3 direct operate analog setpoints preventing chemical over-dosing."
+}
