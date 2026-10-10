@@ -19,3 +19,4 @@ Inspecting a package:
 code
 Bash
 sentinel-spkg inspect dist/modbus_actuator_guard.spkg
+```
