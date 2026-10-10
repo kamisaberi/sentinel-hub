@@ -1,0 +1,12 @@
+{
+  "id": "org.aryorithm.package.s7comm_safety_interlock",
+  "name": "Siemens S7Comm PLC Safety Interlock",
+  "version": "1.0.0",
+  "tier": "wasm",
+  "author": "Aryorithm Certified Security Team",
+  "target_protocol": "S7COMM",
+  "default_port": 102,
+  "latency_sla_ns": 1500,
+  "compliance": ["IEC-62443-4-2-FR5", "CMMC-SI.L2-3.14.1"],
+  "description": "WebAssembly linear-memory isolated interlock blocking unauthorized PLC CPU Stop and firmware alteration."
+}

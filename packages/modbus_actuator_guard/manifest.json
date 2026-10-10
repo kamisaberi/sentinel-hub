@@ -1,0 +1,12 @@
+{
+  "id": "org.aryorithm.package.modbus_actuator_guard",
+  "name": "Modbus SCADA Physical Actuator Guard",
+  "version": "1.0.0",
+  "tier": "native",
+  "author": "Aryorithm Certified Security Team",
+  "target_protocol": "MODBUS_TCP",
+  "default_port": 502,
+  "latency_sla_ns": 120,
+  "compliance": ["IEC-62443-4-2-FR3", "CMMC-SI.L2-3.14.1"],
+  "description": "Sub-microsecond in-kernel prevention of unauthorized coil overrides and actuator oscillation."
+}
