@@ -15,8 +15,9 @@ Official community and certified industrial `.spkg` (Sentinel Package) extension
 Using the Sentinel Nexus CLI:
 ```bash
 nexus-ctl hub broadcast dist/modbus_actuator_guard.spkg
+```
 Inspecting a package:
-code
-Bash
+```
+```bash
 sentinel-spkg inspect dist/modbus_actuator_guard.spkg
 ```
