@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kami/sentinel-hub/packages/modbus_actuator_guard/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

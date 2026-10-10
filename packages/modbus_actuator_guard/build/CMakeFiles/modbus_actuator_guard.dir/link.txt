@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,--dependency-file=CMakeFiles/modbus_actuator_guard.dir/link.d -Wl,-soname,modbus_actuator_guard.so -o modbus_actuator_guard.so CMakeFiles/modbus_actuator_guard.dir/src/plugin.cpp.o

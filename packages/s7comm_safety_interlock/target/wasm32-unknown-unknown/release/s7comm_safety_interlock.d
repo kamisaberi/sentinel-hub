@@ -1,0 +1,1 @@
+/home/kami/sentinel-hub/packages/s7comm_safety_interlock/target/wasm32-unknown-unknown/release/s7comm_safety_interlock.wasm: /home/kami/blackbox-sentinel/tools/sdk/rust/sentinel-sdk-rs/src/lib.rs /home/kami/sentinel-hub/packages/s7comm_safety_interlock/src/lib.rs
