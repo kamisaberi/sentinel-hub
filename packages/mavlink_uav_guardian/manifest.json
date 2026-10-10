@@ -1,0 +1,12 @@
+{
+  "id": "org.aryorithm.package.mavlink_uav_guardian",
+  "name": "MAVLink Autonomous Drone Flight Command Guardian",
+  "version": "1.0.0",
+  "tier": "wasm",
+  "author": "Aryorithm Certified Security Team",
+  "target_protocol": "MAVLINK",
+  "default_port": 14550,
+  "latency_sla_ns": 1800,
+  "compliance": ["MIL-STD-882E", "CMMC-SI.L2-3.14.1"],
+  "description": "WebAssembly linear-memory isolated flight controller guard blocking spoofed mid-air disarm and land overrides."
+}
