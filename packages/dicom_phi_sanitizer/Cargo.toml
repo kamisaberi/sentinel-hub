@@ -1,0 +1,17 @@
+[package]
+name = "dicom_phi_sanitizer"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+sentinel-sdk-rs = { path = "/home/kami/blackbox-sentinel/tools/sdk/rust/sentinel-sdk-rs" }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

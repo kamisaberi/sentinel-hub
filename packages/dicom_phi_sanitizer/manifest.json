@@ -1,0 +1,12 @@
+{
+  "id": "org.aryorithm.package.dicom_phi_sanitizer",
+  "name": "Medical DICOM PACS PHI Privacy Sanitizer",
+  "version": "1.0.0",
+  "tier": "wasm",
+  "author": "Aryorithm Certified Security Team",
+  "target_protocol": "DICOM",
+  "default_port": 104,
+  "latency_sla_ns": 2000,
+  "compliance": ["HIPAA-Privacy-Rule", "EU-NIS2-Art21"],
+  "description": "WebAssembly linear-memory isolated DLP blocking unencrypted Patient Health Information leaks in medical imaging."
+}
