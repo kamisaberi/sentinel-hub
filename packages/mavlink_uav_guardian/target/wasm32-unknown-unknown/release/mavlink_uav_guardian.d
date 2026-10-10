@@ -1,0 +1,1 @@
+/home/kami/sentinel-hub/packages/mavlink_uav_guardian/target/wasm32-unknown-unknown/release/mavlink_uav_guardian.wasm: /home/kami/blackbox-sentinel/tools/sdk/rust/sentinel-sdk-rs/src/lib.rs /home/kami/sentinel-hub/packages/mavlink_uav_guardian/src/lib.rs

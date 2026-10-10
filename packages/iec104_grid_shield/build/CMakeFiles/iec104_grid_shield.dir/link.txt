@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,--dependency-file=CMakeFiles/iec104_grid_shield.dir/link.d -Wl,-soname,iec104_grid_shield.so -o iec104_grid_shield.so CMakeFiles/iec104_grid_shield.dir/src/plugin.cpp.o

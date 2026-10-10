@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,--dependency-file=CMakeFiles/dnp3_water_telemetry.dir/link.d -Wl,-soname,dnp3_water_telemetry.so -o dnp3_water_telemetry.so CMakeFiles/dnp3_water_telemetry.dir/src/plugin.cpp.o

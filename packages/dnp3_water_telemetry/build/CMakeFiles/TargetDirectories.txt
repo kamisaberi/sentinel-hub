@@ -1,0 +1,3 @@
+/home/kami/sentinel-hub/packages/dnp3_water_telemetry/build/CMakeFiles/dnp3_water_telemetry.dir
+/home/kami/sentinel-hub/packages/dnp3_water_telemetry/build/CMakeFiles/edit_cache.dir
+/home/kami/sentinel-hub/packages/dnp3_water_telemetry/build/CMakeFiles/rebuild_cache.dir

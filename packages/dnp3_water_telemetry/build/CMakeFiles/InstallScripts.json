@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kami/sentinel-hub/packages/dnp3_water_telemetry/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
