@@ -1,0 +1,12 @@
+{
+  "id": "org.aryorithm.package.iec104_grid_shield",
+  "name": "IEC-104 High-Voltage Grid Telecontrol Shield",
+  "version": "1.0.0",
+  "tier": "native",
+  "author": "Aryorithm Certified Security Team",
+  "target_protocol": "IEC_60870_5_104",
+  "default_port": 2404,
+  "latency_sla_ns": 150,
+  "compliance": ["IEC-62443-4-2-FR3", "CMMC-SI.L2-3.14.1"],
+  "description": "Sub-150ns in-kernel mitigation of rogue substation circuit breaker open and disconnect commands."
+}
