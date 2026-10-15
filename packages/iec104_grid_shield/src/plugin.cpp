@@ -9,17 +9,12 @@ static SentinelDissectorResult iec104_dissect(const SentinelRawPacket* raw_pkt) 
 
     PacketView pkt(*raw_pkt);
 
-    // IEC-104 APCI Start Byte must be 0x68
     if (pkt.peek_u8(0) != 0x68) {
         return VerdictBuilder::Pass();
     }
 
-    // Offset 6: ASDU Type ID
-    // Type 45 (0x2D) = C_SC_NA_1 (Single Command)
-    // Type 46 (0x2E) = C_DC_NA_1 (Double Command)
     auto asdu_type = pkt.peek_u8(6);
     if (asdu_type == 0x2D || asdu_type == 0x2E) {
-        // Offset 14/15: Command Qualifier (0x01 = Execute / Trip Breaker)
         auto cmd_state = pkt.peek_u8(raw_pkt->length - 1);
         if (cmd_state.has_value() && (cmd_state.value() & 0x01) == 0x01) {
             return VerdictBuilder::Drop(2001, "ROGUE_IEC104_BREAKER_TRIP_COMMAND", 1.0f)
