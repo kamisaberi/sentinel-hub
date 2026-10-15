@@ -1,0 +1,123 @@
+{
+  "assets": [
+    {
+      "file_name": "dicom_phi_sanitizer.spkg",
+      "category": "root",
+      "relative_path": "dicom_phi_sanitizer.spkg",
+      "size_bytes": 1926,
+      "sha256": "7fb6f812ac238cdbd0f0106c1dbdad77fbd2c2ce5a60850764a556fe8a1ec1dd"
+    },
+    {
+      "file_name": "dnp3_water_telemetry.spkg",
+      "category": "root",
+      "relative_path": "dnp3_water_telemetry.spkg",
+      "size_bytes": 17562,
+      "sha256": "eb3b76027e90bde457eb0b9a2afefa437d58deb91c3dd90eeac2d2c8e5b9bba0"
+    },
+    {
+      "file_name": "http_rapid_reset_shield.spkg",
+      "category": "root",
+      "relative_path": "http_rapid_reset_shield.spkg",
+      "size_bytes": 2369,
+      "sha256": "a4f0a0081e502d94b4829958d173971283f97bb39f2a582465875a377191caad"
+    },
+    {
+      "file_name": "iec104_grid_shield.spkg",
+      "category": "root",
+      "relative_path": "iec104_grid_shield.spkg",
+      "size_bytes": 17691,
+      "sha256": "50fa7b61fd6c7e2ca297d3eff4aa5ef756e73a609c8928c3cd6409531746667a"
+    },
+    {
+      "file_name": "log4j_jndi_fastdrop.spkg",
+      "category": "root",
+      "relative_path": "log4j_jndi_fastdrop.spkg",
+      "size_bytes": 2049,
+      "sha256": "ad7643635e2a1028fb8302079fa498d32ae37067e1d35c84bc0b672cb4d5a362"
+    },
+    {
+      "file_name": "mavlink_uav_guardian.spkg",
+      "category": "root",
+      "relative_path": "mavlink_uav_guardian.spkg",
+      "size_bytes": 1646,
+      "sha256": "e4c54b0962e04ce4d3b911309e5da9d3d0da4a0472fb9d75ab919bec3115155d"
+    },
+    {
+      "file_name": "modbus_actuator_guard.spkg",
+      "category": "root",
+      "relative_path": "modbus_actuator_guard.spkg",
+      "size_bytes": 17617,
+      "sha256": "9e11a66b4ca01e0ef01ce82df427f246f439740c80b0cf8a219129c85d494db4"
+    },
+    {
+      "file_name": "s7comm_safety_interlock.spkg",
+      "category": "root",
+      "relative_path": "s7comm_safety_interlock.spkg",
+      "size_bytes": 1395,
+      "sha256": "5d33d839b6b268aebe5d83a20a93bc0526947dd814d2871c8ebdddc629d55aab"
+    },
+    {
+      "file_name": "cicids2017_portscan.slab",
+      "category": "datasets",
+      "relative_path": "datasets/cicids2017_portscan.slab",
+      "size_bytes": 1440000,
+      "sha256": "7526e337d3c7754b992ba82a796c55e6dadb326028c2cab06bdffef1a895ed63"
+    },
+    {
+      "file_name": "unsw_nb15_cps.slab",
+      "category": "datasets",
+      "relative_path": "datasets/unsw_nb15_cps.slab",
+      "size_bytes": 1472000,
+      "sha256": "90362629f8732b0c16437de7ce497961bf1e05330479d05cdbf72ca8953e391a"
+    },
+    {
+      "file_name": "scenario_hospital_pacs_heist.tar.gz",
+      "category": "scenarios",
+      "relative_path": "scenarios/scenario_hospital_pacs_heist.tar.gz",
+      "size_bytes": 509,
+      "sha256": "930606183a118df2eb6f4fc1ec94f230116e5c68182d8d1221379362ed495bf3"
+    },
+    {
+      "file_name": "scenario_power_grid_blackout.tar.gz",
+      "category": "scenarios",
+      "relative_path": "scenarios/scenario_power_grid_blackout.tar.gz",
+      "size_bytes": 541,
+      "sha256": "9fe4da606ca4536c89b8f750e948a3f2b153c07404f6d4e16bb46b5e15f6f10d"
+    },
+    {
+      "file_name": "scenario_refinery_disaster_triton.tar.gz",
+      "category": "scenarios",
+      "relative_path": "scenarios/scenario_refinery_disaster_triton.tar.gz",
+      "size_bytes": 512,
+      "sha256": "9cf1602790e0999a015a69a11ac256e68eb7b94cdaae314f768310f98bcf29ae"
+    },
+    {
+      "file_name": "industroyer2_substation.pcap",
+      "category": "pcaps",
+      "relative_path": "pcaps/industroyer2_substation.pcap",
+      "size_bytes": 43024,
+      "sha256": "8ba75566e6d421e39d71b81b3a615f9164b21d25a849aaa71fffffd620eacfdf"
+    },
+    {
+      "file_name": "modbus_uiuc_scada_attack.pcap",
+      "category": "pcaps",
+      "relative_path": "pcaps/modbus_uiuc_scada_attack.pcap",
+      "size_bytes": 49224,
+      "sha256": "9f18d7096dc8c43fc15fc74df17d86c7215b0aab5700710c5d038cb37100dd45"
+    },
+    {
+      "file_name": "stuxnet_s7comm_injected.pcap",
+      "category": "pcaps",
+      "relative_path": "pcaps/stuxnet_s7comm_injected.pcap",
+      "size_bytes": 35224,
+      "sha256": "5e2011635635e9afccf37a79232caf8da947014b3c97c7848f5886a8c2f15a4e"
+    },
+    {
+      "file_name": "triton_trisis_sis.pcap",
+      "category": "pcaps",
+      "relative_path": "pcaps/triton_trisis_sis.pcap",
+      "size_bytes": 28724,
+      "sha256": "5f128d5c2e2c3c043f6ad2e2486454b2e5381b57236b4b8ff8b7d86ccafc1c6b"
+    }
+  ]
+}
