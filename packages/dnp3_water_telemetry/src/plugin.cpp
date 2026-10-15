@@ -9,18 +9,12 @@ static SentinelDissectorResult dnp3_dissect(const SentinelRawPacket* raw_pkt) {
 
     PacketView pkt(*raw_pkt);
 
-    // DNP3 Data Link Header: 0x05 0x64
     if (pkt.peek_u8(0) != 0x05 || pkt.peek_u8(1) != 0x64) {
         return VerdictBuilder::Pass();
     }
 
-    // Offset 12: DNP3 Application Layer Function Code
-    // 0x05 = Direct Operate
-    // 0x06 = Direct Operate No Ack
-    // 0x0E = Cold Restart
     auto func_code = pkt.peek_u8(12);
     if (func_code == 0x05 || func_code == 0x06 || func_code == 0x0E) {
-        // Drop unauthorized direct setpoint manipulation at line rate
         return VerdictBuilder::Drop(3001, "UNAUTHORIZED_DNP3_CHEMICAL_OVERRIDE", 1.0f)
             .with_tag(tags::CPS_ACTUATOR_WRITE)
             .with_tag(tags::CPS_SAFETY_INTERLOCK_BYPASS)

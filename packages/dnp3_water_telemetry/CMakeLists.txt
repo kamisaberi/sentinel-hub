@@ -1,12 +1,9 @@
 cmake_minimum_required(VERSION 3.20)
 project(dnp3_water_telemetry CXX)
-
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 set(CMAKE_VISIBILITY_INLINES_HIDDEN 1)
-
 include_directories(/home/kami/blackbox-sentinel/include)
-
 add_library(dnp3_water_telemetry SHARED src/plugin.cpp)
 set_target_properties(dnp3_water_telemetry PROPERTIES PREFIX "")
