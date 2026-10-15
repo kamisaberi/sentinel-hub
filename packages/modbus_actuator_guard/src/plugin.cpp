@@ -9,17 +9,14 @@ static SentinelDissectorResult modbus_dissect(const SentinelRawPacket* raw_pkt) 
 
     PacketView pkt(*raw_pkt);
 
-    // Verify Modbus Protocol ID (0x0000 at offset 2)
     auto proto_id = pkt.read_be16(2);
     if (!proto_id.has_value() || proto_id.value() != 0x0000) {
         return VerdictBuilder::Pass();
     }
 
-    // Function Code at byte offset 7
     auto fc = pkt.peek_u8(7);
     if (!fc.has_value()) return VerdictBuilder::Pass();
 
-    // Block FC 05 (Write Single Coil) and FC 15 (Write Multiple Coils)
     if (fc.value() == 0x05 || fc.value() == 0x0F) {
         return VerdictBuilder::Drop(1001, "UNAUTHORIZED_MODBUS_COIL_WRITE", 1.0f)
             .with_tag(tags::CPS_ACTUATOR_WRITE)
