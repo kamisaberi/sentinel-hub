@@ -53,71 +53,71 @@
       "file_name": "s7comm_safety_interlock.spkg",
       "category": "root",
       "relative_path": "s7comm_safety_interlock.spkg",
-      "size_bytes": 1395,
-      "sha256": "5d33d839b6b268aebe5d83a20a93bc0526947dd814d2871c8ebdddc629d55aab"
+      "size_bytes": 1414,
+      "sha256": "430e94d9b18be7ac7c971c43f21ce5bebde85099d5a45f0d1a49ab92eb3a00af"
     },
     {
       "file_name": "cicids2017_portscan.slab",
       "category": "datasets",
       "relative_path": "datasets/cicids2017_portscan.slab",
       "size_bytes": 1440000,
-      "sha256": "7526e337d3c7754b992ba82a796c55e6dadb326028c2cab06bdffef1a895ed63"
+      "sha256": "fe011f90cbaf3a1c13b98e4b60fa92ef2554280a63ca7110e34e2b20abab2f22"
     },
     {
       "file_name": "unsw_nb15_cps.slab",
       "category": "datasets",
       "relative_path": "datasets/unsw_nb15_cps.slab",
       "size_bytes": 1472000,
-      "sha256": "90362629f8732b0c16437de7ce497961bf1e05330479d05cdbf72ca8953e391a"
+      "sha256": "82fb4d2378709a2439058dbf727b1680c8600a909b474fc78c89b5340f1b835b"
     },
     {
       "file_name": "scenario_hospital_pacs_heist.tar.gz",
       "category": "scenarios",
       "relative_path": "scenarios/scenario_hospital_pacs_heist.tar.gz",
-      "size_bytes": 509,
-      "sha256": "930606183a118df2eb6f4fc1ec94f230116e5c68182d8d1221379362ed495bf3"
+      "size_bytes": 508,
+      "sha256": "4784e589e75ade7cce2e0b696f21c594241660916cb6d9e784591899eec54b0c"
     },
     {
       "file_name": "scenario_power_grid_blackout.tar.gz",
       "category": "scenarios",
       "relative_path": "scenarios/scenario_power_grid_blackout.tar.gz",
       "size_bytes": 541,
-      "sha256": "9fe4da606ca4536c89b8f750e948a3f2b153c07404f6d4e16bb46b5e15f6f10d"
+      "sha256": "81348a776ad8acc02e41bddde708a7883290c35e3bf3f1bec5bc7424db384873"
     },
     {
       "file_name": "scenario_refinery_disaster_triton.tar.gz",
       "category": "scenarios",
       "relative_path": "scenarios/scenario_refinery_disaster_triton.tar.gz",
       "size_bytes": 512,
-      "sha256": "9cf1602790e0999a015a69a11ac256e68eb7b94cdaae314f768310f98bcf29ae"
+      "sha256": "300a4f622cb4f15297051424efc37146fd2e50d16f880dac5848a185968f684a"
     },
     {
       "file_name": "industroyer2_substation.pcap",
       "category": "pcaps",
       "relative_path": "pcaps/industroyer2_substation.pcap",
       "size_bytes": 43024,
-      "sha256": "8ba75566e6d421e39d71b81b3a615f9164b21d25a849aaa71fffffd620eacfdf"
+      "sha256": "84de7825b3976ab9b346baad128352fa92190552cb85176b7568814762368deb"
     },
     {
       "file_name": "modbus_uiuc_scada_attack.pcap",
       "category": "pcaps",
       "relative_path": "pcaps/modbus_uiuc_scada_attack.pcap",
       "size_bytes": 49224,
-      "sha256": "9f18d7096dc8c43fc15fc74df17d86c7215b0aab5700710c5d038cb37100dd45"
+      "sha256": "d973f00d5edd1013b9d272694f3795ce7374c6ef8a963558c8bda28d132aec30"
     },
     {
       "file_name": "stuxnet_s7comm_injected.pcap",
       "category": "pcaps",
       "relative_path": "pcaps/stuxnet_s7comm_injected.pcap",
       "size_bytes": 35224,
-      "sha256": "5e2011635635e9afccf37a79232caf8da947014b3c97c7848f5886a8c2f15a4e"
+      "sha256": "91d5c1368b072cb729662037ec8caead5412a81f782509171f8824ea4497d470"
     },
     {
       "file_name": "triton_trisis_sis.pcap",
       "category": "pcaps",
       "relative_path": "pcaps/triton_trisis_sis.pcap",
       "size_bytes": 28724,
-      "sha256": "5f128d5c2e2c3c043f6ad2e2486454b2e5381b57236b4b8ff8b7d86ccafc1c6b"
+      "sha256": "28ef93cf57cc45197880758d488fb6299f44116fdcaee7df08911831cb3f0688"
     }
   ]
 }
